@@ -1,0 +1,12 @@
+{
+  "name":"Development-Diary",
+  "version": "1.0.0",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build":"vitepress build docs && mv docs/.vitepress/dist dist",
+    "docs:serve": "vitepress serve docs" 
+  },
+  "devDependencies": {
+    "vitepress":"~1.0.0-rc.31"
+  }
+}
